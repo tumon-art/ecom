@@ -28,4 +28,9 @@
         @apply ml-4 ring border-r-indigo-600 
         hover:scale-105 transition cursor-pointer p-0
     }
+
+    .colorCircle {
+        @apply ml-2 rounded-full w-5 h-5 cursor-pointer 
+        hover:scale-110 transition
+    }
 }
