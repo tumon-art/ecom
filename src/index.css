@@ -8,10 +8,24 @@
         @apply grid grid-cols-3 justify-between px-5 py-3 max-h-14
         bg-slate-800 text-white
     }
+
+    /* Products Footer */
     .productsFooter {
         @apply  w-5 mx-1 hover:scale-125 transition m-0 text-gray-100
     }
     .rIcon{
         @apply  h-10 w-10 ml-3
+    }
+
+     /* === H3 */
+    .H3 {
+        @apply mb-5 
+        text-xl font-sans font-extrabold
+    }
+
+    /* // select Button */
+    .selectBtn {
+        @apply ml-4 ring border-r-indigo-600 
+        hover:scale-105 transition cursor-pointer p-0
     }
 }
