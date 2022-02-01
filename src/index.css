@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 
-
 @layer components {
     .navBar {
         @apply grid grid-cols-3 justify-between px-5 py-3 max-h-14
@@ -11,5 +10,8 @@
     }
     .productsFooter {
         @apply  w-5 mx-1 hover:scale-125 transition m-0 text-gray-100
+    }
+    .rIcon{
+        @apply  h-10 w-10 ml-3
     }
 }
