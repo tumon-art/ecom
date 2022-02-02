@@ -33,4 +33,13 @@
         @apply ml-2 rounded-full w-5 h-5 cursor-pointer 
         hover:scale-110 transition
     }
+    .doneBtn {
+        @apply bg-gray-800 text-gray-100
+        py-1 hover:scale-105 transition
+       px-4 ring ring-gray-600 rounded-sm
+    }
+    .inp4sign {
+        @apply ring ring-gray-800 bg-gray-300
+        shadow-sm shadow-gray-700 p-1 block my-2
+    }
 }
